@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.0.7
+ENV VERSION=2.10.3
 
 RUN gem install bake-toolkit --version ${VERSION} --no-format-exec
 
